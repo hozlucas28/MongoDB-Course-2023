@@ -1,0 +1,39 @@
+use('MongoDB-Course-2023')
+
+// Insertar registros en la colección 'Star'
+db['Star'].insertMany([
+	{
+		'distance (light years)': 309.8,
+		constellation: 'Carina',
+		magnitude: '0,72',
+		name: 'Canopus',
+		size: 'Supergigante blanco-amarilla',
+	},
+	{
+		'distance (light years)': 36.7,
+		constellation: 'Boyero',
+		magnitude: 0.04,
+		name: 'Arturo',
+		size: 'Gigante naranja',
+	},
+	{
+		'distance (light years)': 4.37,
+		constellation: 'Centauro',
+		magnitude: -0.01,
+		name: 'Alfa Centauri A',
+		size: 'Enana amarilla',
+	},
+])
+
+// db['Star'].find()
+
+/*
+    {
+        "acknowledged": true, --> Éxito de la operación.
+        "insertedIds": { --> Indentificadores de los registros insertados (en orden).
+            "0": { "$oid": "652c67b2d1762e505ae282b7" },
+            "1": { "$oid": "652c67b2d1762e505ae282b8" },
+            "2": { "$oid": "652c67b2d1762e505ae282b9" },
+        }
+    }
+*/

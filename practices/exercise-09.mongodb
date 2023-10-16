@@ -1,0 +1,14 @@
+use('MongoDB-Course-2023')
+
+db['Star'].deleteOne({
+	_id: ObjectId('652c6436f21ce42bbe39804f'),
+})
+
+// db['Star'].find()
+
+/*
+    {
+        "acknowledged": true, --> Éxito de la operación.
+        "deletedCount": 1 --> Registros eliminados.
+    }
+*/

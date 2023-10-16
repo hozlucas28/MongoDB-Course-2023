@@ -1,0 +1,12 @@
+use('MongoDB-Course-2023')
+
+db['Star'].updateMany(
+	{},
+	{
+		$set: {
+			'discovery year': null,
+		},
+	}
+)
+
+// db['Star'].find()

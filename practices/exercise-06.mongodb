@@ -1,0 +1,24 @@
+use('MongoDB-Course-2023')
+
+db['Star'].update(
+	{
+		name: 'Enana blanca',
+	},
+	{
+		$set: {
+			constellation: null,
+		},
+	}
+)
+
+// db['Star'].find()
+
+/*
+    {
+        "acknowledged": true, --> Éxito de la operación.
+        "insertedId": null, --> Valor insertado.
+        "matchedCount": 1, --> Documentos encontrados.
+        "modifiedCount": 0, --> Documentos modificados.
+        "upsertedCount": 0 --> Documentos creados.
+    }
+*/

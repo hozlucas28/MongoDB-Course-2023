@@ -1,0 +1,40 @@
+use('MongoDB-Course-2023')
+
+db.createCollection('Asteroid')
+
+db['Asteroid'].insertMany([
+	{
+		name: 'Winchester 747',
+		dimensions: '171.71 km',
+		'discovery year': 1913,
+	},
+	{
+		name: 'Hilda 153',
+		dimensions: '170.63 km',
+		'discovery year': 1875,
+	},
+	{
+		name: 'Pretoria 790',
+		dimensions: '170 km',
+		'discovery year': 1912,
+	},
+	{
+		name: 'Aegle 96 ',
+		dimensions: '169.9 km',
+		'discovery year': 1868,
+	},
+])
+
+// db['Asteroid'].find()
+
+/*
+    {
+        "acknowledged": true, --> Éxito de la operación.
+        "insertedIds": { --> Indentificadores de los registros insertados (en orden).
+            "0": { "$oid": "652c67b2d1762e505ae282b7" },
+            "1": { "$oid": "652c67b2d1762e505ae282b8" },
+            "2": { "$oid": "652c67b2d1762e505ae282b9" },
+            "3": { "$oid": "652c67b2d1762e505ae282ba" }
+        }
+    }
+*/

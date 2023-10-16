@@ -1,0 +1,21 @@
+use('MongoDB-Course-2023')
+
+// Insertar un registro en la colección 'Star'
+db['Star'].insertOne({
+	'distance (light years)': 8.6,
+	constellation: 'Can Mayor',
+	magnitude: 1,
+	name: 'Enana blanca',
+	size: -1.47,
+})
+
+/*
+    {
+        "acknowledged": true, --> Éxito de la operación.
+        "insertedId": { --> Indentificador del registro insertado.
+            "$oid": "652c68a8f99a3fca421a80ef"
+        }
+    }
+*/
+
+// db['Star'].find()

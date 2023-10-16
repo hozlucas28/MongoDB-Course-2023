@@ -1,0 +1,4 @@
+use('MongoDB-Course-2023')
+
+db.createCollection('Star')
+db.getCollectionNames()
