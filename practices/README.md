@@ -1,5 +1,3 @@
-# Anotaciones
-
 ## Observaciones
 
 - Para que una base de datos se cree exitosamente hay que crear un colección en la misma en la misma instancia de ejecución.
