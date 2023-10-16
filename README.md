@@ -30,7 +30,7 @@
     Installation
 </h2>
 <p>
-    [TODO].
+    Clone the repository and install <a href="https://www.mongodb.com/try/download/community" target="_blank">MongoDB Community Server</a>, then install <a href="https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode" target="_blank">MongoDB</a> (extension). After that, connect the extension with your local MongoDB instance. That's all, now you can open each <code>.mongodb</code> file and run it with the extension.
 </p>
 
 <h2>
