@@ -1,0 +1,28 @@
+use('Fraud-Detection')
+
+db.createCollection('Transactions')
+db.createCollection('CC Info')
+
+db.getCollectionNames()
+
+// Mostrar índices existentes
+db['Transactions'].getIndexes()
+db['CC Info'].getIndexes()
+
+// Crear un índice
+db['CC Info'].createIndex({
+	city_indx: 1,
+})
+db['CC Info'].getIndexes()
+
+db['CC Info'].find({
+	city: 'Dallas',
+})
+
+// Eliminar un índice
+db['CC Info'].dropIndex('city_indx_1')
+db['CC Info'].getIndexes()
+
+// Eliminar multiples índices
+db['CC Info'].dropIndexes(['city_indx_1'])
+db['CC Info'].getIndexes()
