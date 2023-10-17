@@ -1,0 +1,24 @@
+use('Fraud-Detection')
+
+db.createView('Transactions Status', 'Transactions', [
+	{
+		$lookup: {
+			from: 'cc_info',
+			localField: 'credit_card',
+			foreignField: 'credit_card',
+			as: 'Transactions_Status',
+		},
+	},
+	{
+		$project: {
+			_id: 0,
+			credit_card: 1,
+			date: 1,
+			transaction_dollar_amount: 1,
+			city: '$Transactions_Status.city',
+		},
+	},
+    {
+        $unwind: '$city'
+    },
+])

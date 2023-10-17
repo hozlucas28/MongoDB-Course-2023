@@ -1,0 +1,59 @@
+use('Fraud-Detection')
+
+// Obtener los registros que cumplen con la condición
+db['CC Info'].aggregate([
+	{
+		$match: {
+			city: 'Dallas',
+		},
+	},
+])
+
+// Obtener el monto total de cada tarjeta - Registros no repetidos
+db['Transactions'].aggregate([
+	{
+		$group: {
+			_id: '$credit_card',
+			total: {
+				$sum: '$transaction_dollar_amount',
+			},
+		},
+	},
+])
+
+// Obtener la cantidad de transacciones de cada tarjeta - Registros no repetidos
+db['Transactions'].aggregate([
+	{
+		$group: {
+			_id: '$credit_card',
+			'amount of transactions': {
+				$sum: 1,
+			},
+		},
+	},
+])
+
+// Obtener la mayor y menor transacción de cada tarjeta - Registros no repetidos
+db['Transactions'].aggregate([
+	{
+		$group: {
+			_id: '$credit_card',
+			'higher transaction': {
+				$max: '$transaction_dollar_amount',
+			},
+			'lower transaction': {
+				$min: '$transaction_dollar_amount',
+			},
+		},
+	},
+])
+
+// Obtener los registros con transacciones mayores a $500 y menores a $1000
+db['Transactions'].find({
+	transaction_dollar_amount: {
+		$gte: 500,
+		$lte: 1000,
+		// $eq: 500,
+		// $ne: 500,
+	},
+})
