@@ -1,0 +1,21 @@
+use('MongoDB-Course-2023')
+
+db['getAverageTemperatureRainWindspeedPerDay'].aggregate([
+	{
+		$group: {
+			_id: '$time',
+
+			'higher temperature': {
+				$max: '$average temperature',
+			},
+			'lower temperature': {
+				$min: '$average temperature',
+			},
+		},
+	},
+	{
+		$project: {
+			_id: 0,
+		},
+	},
+])

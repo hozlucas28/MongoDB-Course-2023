@@ -1,0 +1,22 @@
+use('MongoDB-Course-2023')
+
+db['getAverageTemperatureRainWindspeedPerDay'].drop()
+
+db.createView('getAverageTemperatureRainWindspeedPerDay', 'Daily Weather', [
+	{
+		$group: {
+			_id: '$time',
+			'average temperature': { $avg: '$temperature_2m (°C)' },
+			'average rain': { $avg: '$rain (mm)' },
+			'average windspeed': { $avg: '$windspeed_100m (km/h)' },
+		},
+	},
+	{
+		$project: {
+			_id: 1,
+			'average temperature': 1,
+			'average rain': 1,
+			'average windspeed': 1,
+		},
+	},
+])

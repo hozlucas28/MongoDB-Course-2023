@@ -1,0 +1,11 @@
+use('MongoDB-Course-2023')
+
+db['Daily Weather'].updateMany(
+	{},
+	{
+		$set: {
+			month: { $month: '$time' },
+			city: 'Buenos Aires',
+		},
+	}
+)
