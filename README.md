@@ -51,10 +51,19 @@
             <a href="https://github.com/hozlucas28/C--Course-2022" target="_blank">Repository of C++ course - 2022</a>
         </li>
         <li>
+            <a href="https://github.com/hozlucas28/Prolog-Course-2025" target="_blank">Repository of Prolog course - 2025</a>
+        </li>
+        <li>
+            <a href="https://github.com/hozlucas28/Haskell-Course-2025" target="_blank">Repository of Haskell course - 2025</a>
+        </li>
+        <li>
             <a href="https://github.com/hozlucas28/C-Algorithms-Course-2025" target="_blank">Repository of C algorithms course - 2025</a>
         </li>
         <li>
             <a href="https://github.com/hozlucas28/C-Practical-Work-2024" target="_blank">Repository of C practical work - 2024</a>
+        </li>
+        <li>
+            <a href="https://github.com/hozlucas28/Java-Practical-Work-2025" target="_blank">Repository of Java practical work - 2025</a>
         </li>
         <li>
             <a href="https://github.com/hozlucas28/SQL-Server-Course-I-2023" target="_blank">Repository of SQL Server - I course</a>
