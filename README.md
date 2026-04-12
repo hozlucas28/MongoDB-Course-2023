@@ -1,5 +1,5 @@
 <h1 align="center">
-    MongoDB - NoSQL Course [2023]
+    MongoDB - NoSQL Subject [2023]
 </h1>
 
 <h4 align="center">
@@ -39,25 +39,25 @@
 <p>
     <ul>
         <li>
-            <a href="https://github.com/hozlucas28/C-Course-2022" target="_blank">Repository of C course - 2022</a>
+            <a href="https://github.com/hozlucas28/C-Subject-2022" target="_blank">Repository of C subject - 2022</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/C-Course-2023" target="_blank">Repository of C course - 2023</a>
+            <a href="https://github.com/hozlucas28/C-Subject-2023" target="_blank">Repository of C subject - 2023</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/C-Course-2024" target="_blank">Repository of C course - 2024</a>
+            <a href="https://github.com/hozlucas28/C-Subject-2024" target="_blank">Repository of C subject - 2024</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/C--Course-2022" target="_blank">Repository of C++ course - 2022</a>
+            <a href="https://github.com/hozlucas28/C--Subject-2022" target="_blank">Repository of C++ subject - 2022</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/Prolog-Course-2025" target="_blank">Repository of Prolog course - 2025</a>
+            <a href="https://github.com/hozlucas28/Prolog-Subject-2025" target="_blank">Repository of Prolog subject - 2025</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/Haskell-Course-2025" target="_blank">Repository of Haskell course - 2025</a>
+            <a href="https://github.com/hozlucas28/Haskell-Subject-2025" target="_blank">Repository of Haskell subject - 2025</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/C-Algorithms-Course-2025" target="_blank">Repository of C algorithms course - 2025</a>
+            <a href="https://github.com/hozlucas28/C-Algorithms-Subject-2025" target="_blank">Repository of C algorithms subject - 2025</a>
         </li>
         <li>
             <a href="https://github.com/hozlucas28/C-Practical-Work-2024" target="_blank">Repository of C practical work - 2024</a>
@@ -66,10 +66,10 @@
             <a href="https://github.com/hozlucas28/Java-Practical-Work-2025" target="_blank">Repository of Java practical work - 2025</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/SQL-Server-Course-I-2023" target="_blank">Repository of SQL Server - I course</a>
+            <a href="https://github.com/hozlucas28/SQL-Server-Subject-I-2023" target="_blank">Repository of SQL Server - I subject</a>
         </li>
         <li>
-            <a href="https://github.com/hozlucas28/SQL-Server-Course-II-2023" target="_blank">Repository of SQL Server - II course</a>
+            <a href="https://github.com/hozlucas28/SQL-Server-Subject-II-2023" target="_blank">Repository of SQL Server - II subject</a>
         </li>
     </ul>
 </p>
